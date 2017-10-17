@@ -16,7 +16,7 @@
 		2D7253181F842CA900870215 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7253171F842CA900870215 /* CoreDataManager.swift */; };
 		2D72531A1F842F5F00870215 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7253191F842F5F00870215 /* TableViewController.swift */; };
 		2D72531C1F842F7500870215 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D72531B1F842F7500870215 /* AddViewController.swift */; };
-		2D72531E1F843EB800870215 /* EditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D72531D1F843EB800870215 /* EditViewController.swift */; };
+		2D72531E1F843EB800870215 /* UpdateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D72531D1F843EB800870215 /* UpdateViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,7 +31,7 @@
 		2D7253171F842CA900870215 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
 		2D7253191F842F5F00870215 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		2D72531B1F842F7500870215 /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
-		2D72531D1F843EB800870215 /* EditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditViewController.swift; sourceTree = "<group>"; };
+		2D72531D1F843EB800870215 /* UpdateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,7 +68,7 @@
 				2D7253171F842CA900870215 /* CoreDataManager.swift */,
 				2D7253191F842F5F00870215 /* TableViewController.swift */,
 				2D72531B1F842F7500870215 /* AddViewController.swift */,
-				2D72531D1F843EB800870215 /* EditViewController.swift */,
+				2D72531D1F843EB800870215 /* UpdateViewController.swift */,
 				2D553FDF1F9115D500612F81 /* UIViewController+Extensions.swift */,
 				2D72530C1F842C8500870215 /* Assets.xcassets */,
 				2D7253061F842C8500870215 /* Main.storyboard */,
@@ -154,7 +154,7 @@
 				2D553FE01F9115D500612F81 /* UIViewController+Extensions.swift in Sources */,
 				2D72531C1F842F7500870215 /* AddViewController.swift in Sources */,
 				2D72530B1F842C8500870215 /* CoreDataSimple.xcdatamodeld in Sources */,
-				2D72531E1F843EB800870215 /* EditViewController.swift in Sources */,
+				2D72531E1F843EB800870215 /* UpdateViewController.swift in Sources */,
 				2D7253181F842CA900870215 /* CoreDataManager.swift in Sources */,
 				2D7253031F842C8500870215 /* AppDelegate.swift in Sources */,
 				2D72531A1F842F5F00870215 /* TableViewController.swift in Sources */,

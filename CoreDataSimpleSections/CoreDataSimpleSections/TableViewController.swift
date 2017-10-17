@@ -57,7 +57,7 @@ class TableViewController: UITableViewController {
   override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCellEditingStyle, forRowAt indexPath: IndexPath) {
     if editingStyle == .delete {
       let person = people[indexPath.section]
-      let allAddresses = person.addresses?.allObjects as! [Address]
+      let allAddresses = (person.addresses?.allObjects as! [Address]).sorted(by: { $0.address! < $1.address! })
       let addressToDelete = allAddresses[indexPath.row]
       CoreDataManager.context.delete(addressToDelete)
       CoreDataManager.saveContext()

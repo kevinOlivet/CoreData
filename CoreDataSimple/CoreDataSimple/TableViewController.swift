@@ -63,8 +63,8 @@ class TableViewController: UITableViewController {
   
   // MARK: - Navigation
   override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-    if segue.identifier == "edit" {
-      let destination = segue.destination as! EditViewController
+    if segue.identifier == "update" {
+      let destination = segue.destination as! UpdateViewController
       let indexPath = tableView.indexPathForSelectedRow
       destination.person = people[(indexPath?.row)!]
     }

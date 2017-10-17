@@ -9,7 +9,7 @@
 import UIKit
 import CoreData
 
-class EditViewController: UIViewController {
+class UpdateViewController: UIViewController {
   
   var person: Person!
   
@@ -28,8 +28,9 @@ class EditViewController: UIViewController {
   }
   
   func setUp() {
-    navigationItem.title = "Update"
-    nameTextfield.text = person.name
+    guard let name = person.name else { return }
+    navigationItem.title = "Update \(name)"
+    nameTextfield.text = name
     addressTextfield.text = person.address
     nameTextfield.placeholder = "Update name"
     addressTextfield.placeholder = "Update address"

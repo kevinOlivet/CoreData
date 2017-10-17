@@ -42,7 +42,7 @@
                                     </subviews>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <segue destination="ShX-Je-zLz" kind="show" identifier="edit" id="c5e-1A-SRq"/>
+                                    <segue destination="ShX-Je-zLz" kind="show" identifier="update" id="c5e-1A-SRq"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -135,10 +135,10 @@
             </objects>
             <point key="canvasLocation" x="-127" y="18"/>
         </scene>
-        <!--Edit View Controller-->
+        <!--Update View Controller-->
         <scene sceneID="BFQ-r0-qFf">
             <objects>
-                <viewController id="ShX-Je-zLz" customClass="EditViewController" customModule="CoreDataSimple" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="ShX-Je-zLz" customClass="UpdateViewController" customModule="CoreDataSimple" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="GWB-P7-7pt">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
