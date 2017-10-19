@@ -30,7 +30,7 @@ class FetchTableViewController: UITableViewController, NSFetchedResultsControlle
     }
   }
   
-  // MARK: - Table view data source
+  // MARK: - Table view methods
   override func numberOfSections(in tableView: UITableView) -> Int {
     return 1
   }
@@ -90,13 +90,12 @@ class FetchTableViewController: UITableViewController, NSFetchedResultsControlle
         cell?.detailTextLabel?.text = person.address
       }
     case .move:
-      //      if let indexPath = indexPath {
-      //        tableView.deleteRows(at: [indexPath], with: .fade)
-      //      }
-      //      if let newIndexPath = newIndexPath {
-      //        tableView.insertRows(at: [newIndexPath], with: .fade)
-      //      }
-      print("Entries are sorted so moving isn't supported")
+      if let indexPath = indexPath {
+        tableView.deleteRows(at: [indexPath], with: .fade)
+      }
+      if let newIndexPath = newIndexPath {
+        tableView.insertRows(at: [newIndexPath], with: .fade)
+      }
     }
   }
   

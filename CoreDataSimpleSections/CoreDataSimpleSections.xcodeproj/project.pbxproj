@@ -17,6 +17,7 @@
 		2D5540091F911E4C00612F81 /* UpdateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5540051F911E4C00612F81 /* UpdateViewController.swift */; };
 		2D55400B1F91205500612F81 /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D55400A1F91205500612F81 /* UIViewController+Extensions.swift */; };
 		2D55400D1F9136BB00612F81 /* AddAddressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D55400C1F9136BB00612F81 /* AddAddressViewController.swift */; };
+		2D71B1611F97E612001FE7B5 /* MyTapGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D71B1601F97E612001FE7B5 /* MyTapGestureRecognizer.swift */; };
 		2D7CA27B1F915853003228BC /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7CA27A1F915853003228BC /* AddViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -33,6 +34,7 @@
 		2D5540051F911E4C00612F81 /* UpdateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateViewController.swift; sourceTree = "<group>"; };
 		2D55400A1F91205500612F81 /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
 		2D55400C1F9136BB00612F81 /* AddAddressViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAddressViewController.swift; sourceTree = "<group>"; };
+		2D71B1601F97E612001FE7B5 /* MyTapGestureRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTapGestureRecognizer.swift; sourceTree = "<group>"; };
 		2D7CA27A1F915853003228BC /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -72,6 +74,7 @@
 				2D7CA27A1F915853003228BC /* AddViewController.swift */,
 				2D55400C1F9136BB00612F81 /* AddAddressViewController.swift */,
 				2D5540051F911E4C00612F81 /* UpdateViewController.swift */,
+				2D71B1601F97E612001FE7B5 /* MyTapGestureRecognizer.swift */,
 				2D55400A1F91205500612F81 /* UIViewController+Extensions.swift */,
 				2D553FF71F911D7A00612F81 /* Assets.xcassets */,
 				2D553FF11F911D7A00612F81 /* Main.storyboard */,
@@ -160,6 +163,7 @@
 				2D55400B1F91205500612F81 /* UIViewController+Extensions.swift in Sources */,
 				2D553FEE1F911D7A00612F81 /* AppDelegate.swift in Sources */,
 				2D5540061F911E4C00612F81 /* TableViewController.swift in Sources */,
+				2D71B1611F97E612001FE7B5 /* MyTapGestureRecognizer.swift in Sources */,
 				2D5540091F911E4C00612F81 /* UpdateViewController.swift in Sources */,
 				2D55400D1F9136BB00612F81 /* AddAddressViewController.swift in Sources */,
 			);

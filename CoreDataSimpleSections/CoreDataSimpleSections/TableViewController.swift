@@ -21,7 +21,6 @@ class TableViewController: UITableViewController {
   
   // MARK: - Table view data source
   override func numberOfSections(in tableView: UITableView) -> Int {
-    
     return people.count
   }
   
@@ -100,9 +99,4 @@ class TableViewController: UITableViewController {
     }
   }
   
-}
-
-// MARK: Helper class
-class MyTapGestureRecognizer: UITapGestureRecognizer {
-  var section: Int!
 }
